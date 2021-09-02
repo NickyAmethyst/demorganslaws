@@ -1,0 +1,23 @@
+body {
+    background-color:burlywood;
+}
+.canvas-main { 
+    display:block;
+    margin: 0 auto;
+    background-color: powderblue;
+    width:400px;
+    height:100px;
+    /*outline: 1px solid hotpink;*/
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); ;
+}
+
+.app-window {
+    background-color:cornflowerblue;
+    text-align:center;
+    width: 500px;
+    height:500px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding-top: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); ;
+}

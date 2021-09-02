@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="app-window">
+        <p class="app-title">DeMorgan's Laws</p>
+        <!--use radio buttons... toggel inputs? -->
+        <button>(A &#8746 B)<sup>c</sup> = A<sup>c</sup> &#8745 B<sup>c</sup></button>
+        <button>(A &#8745 B)<sup>c</sup> = A<sup>c</sup> &#8746 B<sup>c</sup></button>
+        <canvas id='canvas' class='canvas-main' width='400' height='100'>
+            The HTML element 'canvas' is not suported by your browser.
+        </canvas>
+        <div>
+            <label for="a_min"> lower bound for set A</label>
+            <input class="slider" type="range" id="a_min" name="a_min" min="0" max="400">
+            <hr>
+            <lable for="a_max"> Upper bound for set A</lable>
+            <input class="slider" type="range" id="a_max" name="a_max" min="0" max="400">
+            <hr>
+            <hr>
+            <label for="b_min"> lower bound for set B</label>
+            <input class="slider" type="range" id="b_min" name="b_min" min="0" max="400">
+            <hr>
+            <lable for="b_max"> Upper bound for set B</lable>
+            <input class="slider" type="range" id="b_max" name="b_max" min="0" max="400">
+        </div>
+    </div>
+</body>
+</html>
