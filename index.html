@@ -12,8 +12,20 @@
     <div class="app-window">
         <p class="app-title">DeMorgan's Laws</p>
         <!--use radio buttons... toggel inputs? -->
+        <div class="selectors">
+            <div class="selector firstSelector">
+                <input type="radio" id="first" name="chooseLaw" value="first">
+                <label for="first">(A &#8746 B)<sup>c</sup> = A<sup>c</sup> &#8745 B<sup>c</sup></label>
+            </div>
+            <div class="selector secondSelector">
+                <input type="radio" id="second" name="chooseLaw" value="second">
+                <label for="second">(A &#8745 B)<sup>c</sup> = A<sup>c</sup> &#8746 B<sup>c</sup></label>
+            </div>
+        </div>
+    <!--
         <button>(A &#8746 B)<sup>c</sup> = A<sup>c</sup> &#8745 B<sup>c</sup></button>
         <button>(A &#8745 B)<sup>c</sup> = A<sup>c</sup> &#8746 B<sup>c</sup></button>
+    -->
         <canvas id='canvas' class='canvas-main' width='400' height='100'>
             The HTML element 'canvas' is not suported by your browser.
         </canvas>
